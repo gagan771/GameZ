@@ -47,10 +47,9 @@ export function Spotlight({ className = "", fill = "white" }: SpotlightProps) {
         className="pointer-events-none absolute -inset-px opacity-0 transition-opacity duration-500"
         style={{
           opacity,
-          background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, ${fill}10, transparent 40%)`,
+          background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, ${fill}30, transparent 40%)`,
         }}
       />
     </div>
   )
 }
-
